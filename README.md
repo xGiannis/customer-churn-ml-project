@@ -1,14 +1,14 @@
 # customer-churn-ml-project
-Proyecto data science de churn utilizando machine learning, SQL, y analisis de datos:
+
 # Customer Churn Prediction (Telco)
 
 Proyecto end-to-end de Data Science para predecir la probabilidad de abandono (churn) de clientes de una empresa de telecomunicaciones y exponer el modelo mediante una API REST.
 
 El objetivo es que, dado el perfil de un cliente, el sistema devuelva:
 
-- probabilidad de churn,
-- predicción binaria (0 = no churn, 1 = churn),
-- nivel de riesgo (`bajo`, `medio`, `alto`) (evaluado relativamente).
+- probabilidad de churn
+- predicción binaria (0 = no churn, 1 = churn)
+- nivel de riesgo (`bajo`, `medio`, `alto`) (evaluado relativamente)
 
 ---
 
@@ -24,8 +24,8 @@ El objetivo es que, dado el perfil de un cliente, el sistema devuelva:
 
 - Problema: clasificación binaria (`Churn: Yes/No`).
 - Modelo principal: **Regresión Logística** con pipeline de preprocesamiento:
-  - numéricas escaladas con `StandardScaler`,
-  - categóricas con `OneHotEncoder`.
+  - numéricas escaladas con `StandardScaler`
+  - categóricas con `OneHotEncoder`
 - Métricas (test):
   - AUC ≈ **0.835**
   - Recall clase churn ≈ **0.80**
@@ -34,7 +34,7 @@ Se probó también un modelo de árboles (Random Forest), pero se mantuvo la reg
 
 ---
 
-## Estructura (resumen)
+## Estructura
 
 ```text
 customer-churn-ml-project/
