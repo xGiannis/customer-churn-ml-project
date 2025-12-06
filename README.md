@@ -141,6 +141,6 @@ Salida ejemplo:
 
 ### 5. Por realizar
 
-- Integrar el modelo con una base de datos SQL (por ejemplo PostgreSQL) para leer y guardar clientes.
-- Crear un pequeño dashboard (por ejemplo con Streamlit) para que usuarios de negocio puedan cargar un lote de clientes y ver su riesgo de churn.
-- Ajustar umbrales de decisión y calibrar probabilidades según los costos de negocio (costo de perder un cliente vs costo de intervenir).
+- Integrar el modelo con una base de datos SQL para leer y guardar clientes.
+- Crear un pequeño dashboard  para que usuarios de negocio puedan cargar un lote de clientes y ver su riesgo de churn.
+
